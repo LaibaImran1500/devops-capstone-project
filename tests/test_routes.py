@@ -20,10 +20,7 @@ DATABASE_URI = os.getenv(
 
 BASE_URL = "/accounts"
 
-HTTPS_ENVIRON = {
-    'HTTPS': 'on',
-    'wsgi.url_scheme': 'https'
-}
+HTTPS_ENVIRON = {'wsgi.url_scheme': 'https'}
 
 
 ######################################################################
